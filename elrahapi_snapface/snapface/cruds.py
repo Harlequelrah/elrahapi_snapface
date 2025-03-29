@@ -2,7 +2,7 @@ from elrahapi.crud.crud_models import CrudModels
 from .models import SnapFace  #remplacer par l'entité SQLAlchemy
 from .schemas import SnapFaceCreateModel, SnapFaceUpdateModel,SnapFacePatchModel,SnapFacePydanticModel
 from elrahapi.crud.crud_forgery import CrudForgery
-from ..settings.auth_configs import authentication
+from ..settings.auth.configs import authentication
 
 
 snapface_crud_models = CrudModels(

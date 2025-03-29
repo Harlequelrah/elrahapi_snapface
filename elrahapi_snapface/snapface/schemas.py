@@ -24,11 +24,10 @@ class SnapFacePatchModel(BaseModel):
     createAt:Optional[datetime]=None
     location:Optional[str]=None
 
-class SnapFacePydanticModel(BaseModel):
+class SnapFacePydanticModel(SnapFaceCreateModel):
     id:int
     createdAt:datetime
     snaps:int
-
     class Config:
         from_attributes=True
 
