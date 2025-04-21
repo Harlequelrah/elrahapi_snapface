@@ -23,7 +23,7 @@ Ceci est un projet backend d'API pour une application de snapface
 
 -  **Initialisation des variables d'environnement :**
 ```bash
-  cp exemple.env .env
+  cp .env.example .env
 ```
 
 -  **Initialisation d'alembic (Optionnel) :**
@@ -50,4 +50,4 @@ Ceci est un projet backend d'API pour une application de snapface
 # Contact ou Support
 
 Pour des questions ou du support, contactez-moi .
-mail  : maximatsoudegbovi@gmail.om
+mail  : maximatsoudegbovi@gmail.com

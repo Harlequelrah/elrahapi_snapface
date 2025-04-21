@@ -2,8 +2,7 @@ from dotenv import load_dotenv
 import os
 
 from elrahapi.authentication.authentication_manager import AuthenticationManager
-
-load_dotenv()
+load_dotenv(".env")
 
 database= os.getenv("DATABASE")
 database_username=os.getenv("DATABASE_USERNAME")
