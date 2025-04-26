@@ -13,7 +13,7 @@ class UserUpdateModel(schemas.UserUpdateModel):
 class UserPatchModel(schemas.UserPatchModel):
     pass
 
-class UserPydanticModel(schemas.UserPydanticModel):
+class UserReadModel(schemas.UserReadModel):
     class Config :
         from_attributes=True
 
